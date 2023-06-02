@@ -1,0 +1,22 @@
+.header {
+	/* ponemos una imagen en el fondo, le damos un degradado de izq
+	a derecha y un color de fondo 000 con transparencia que arranca en .8 y termina en .7 */
+	background-image: linear-gradient(to right, rgb(0 0 0 / .8),
+	rgb(0 0 0 / .7)), url(../../public/guitarra_electrica_01.avif);
+	/* hacemos que no se repita la imagen */
+	background-size: cover;
+	/* hacemos que sea centrado en todo el fondo */
+	background-position: 50%;
+	/* hacemos un poco más gande el header */	
+	padding: 5rem 0;
+}
+
+.barra{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.navegacion{
+	margin-top: 5rem;
+}
