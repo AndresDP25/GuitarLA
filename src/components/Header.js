@@ -6,8 +6,8 @@ const Header = () => {
   return (
 	<header className={styles.header}>
 		<div className="contenedor">
-			<div className="styles.barra">
-				<Link>
+			<div className={styles.barra}>
+				<Link href='/'>
 					<Image width={350} height={100} src='/img/logo.png' alt="imagen - logo" />
 				</Link>
 				<nav className={styles.navegacion}>
